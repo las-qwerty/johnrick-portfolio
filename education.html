@@ -1,0 +1,202 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>Photo Gallery</title>
+	<meta charset="UTF-8">
+	<style>
+	body{
+		background-color: black;
+		color: white;
+		font-size: 16pt;
+		font-family: arial, verdana, calibri;
+
+	}
+	header{
+		width: 1200px;
+		height: 100px;
+		border: 5px solid white;
+		text-align: center;
+		background-color:  #14213D;
+		margin: 0 auto;
+		border-radius: 15px;
+	}
+	fieldset{
+		margin-top: 20px;
+		margin-left: 60px;
+		margin-right: 60px;
+		border: 4px solid white;
+		border-radius: 15px;
+		display: flex;
+		justify-content: center;
+		margin: 20px;
+		
+		
+
+	}
+	legend{
+		margin: 15px;
+	}
+	legend >h2{
+		margin-left: 20px;
+		margin-right: 20px
+		}
+
+	main{
+		background-color:  #14213D;
+		width: 1400px;
+		height: auto;
+		margin: 10px auto;
+		border: 5px solid white;
+		border-radius: 15px;
+		
+		
+		}
+	nav{ 
+		
+		width: 1200px;
+		margin: 0 auto;
+		
+	}
+
+	.topnav {
+  		overflow: hidden;
+  		background-color:  #14213D;
+		border-radius: 10px;
+		border: 5px solid white;
+	}
+
+	.topnav a {
+  		float: left;
+  		color: white;
+  		text-align: center;
+  		padding: 14px 16px;
+  		text-decoration: none;
+  		font-size: 17px;
+	}
+
+	.topnav a:hover {
+  		background-color: #284b63 ;
+  		
+  		color: black;
+	}
+
+	.topnav a.active {
+  		background-color: #004e98;
+  		color: white;
+		}
+
+
+.row2 {
+  margin: 8px -16px;
+}
+
+
+
+
+.column2 {
+  float: left;
+  
+  
+}
+
+
+.row2:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.photo{
+	margin-left: 15px;;
+}
+.content img{
+
+	width: 100%;
+    max-width: 600px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+	margin: 20px;
+
+	
+}
+.content{
+	text-align: center;
+}
+
+
+	</style>
+	
+
+</head>
+<body>
+	<div id="wrapper">
+	<header>
+	<h1>Resume of Johnrick Nuñeza
+	</header><br />
+	
+	<nav>
+	<div class="topnav">
+  		<a href="index.html">Home</a>
+  		<a href="personal.html">Personal Info</a>
+  		<a href="education.html">Education</a>
+  		<a href="skills.html">Skills and Training</a>
+  		<a class="active" href="photo_gallery.html">Photo Gallery</a>
+	</div>
+	</nav><br />
+
+	<main>
+	<fieldset> 
+	<legend>
+		<h2>Photo Gallery</h2>
+
+
+	</legend>
+	
+
+
+<div class="photo">
+<div class="row2">
+  <div class="column2">
+    <div class="content">
+      <img src="images/gallery4.jpg" alt="Resume website" style="width:100%">
+      <figcaption>RESUME WEBSITE</figcaption>
+      
+    </div>
+  </div>
+  <div class="column2">
+    <div class="content">
+     <img src="images/gallery2.jpg" alt="Student record"  style="width:100%">
+      <figcaption>STUDENT RECORD</figcaption>
+      
+    </div>
+  </div>
+ </div>
+ <div class="row2">
+	<div class="column2">
+		<div class="content">
+			<img src="images/gallery3.jpg" alt="invoice receipt"  style="width:100%">
+			<figcaption>INVOICE RECEIPT</figcaption>
+		</div>
+
+	</div>
+	<div class="column2">
+		<div class="content">
+		<img src="images/gallery1.jpg" alt="ID-Lace" style="width: 100%;">
+		<figcaption>ID WEBSITE</figcaption>
+	</div>
+	</div>
+ </div>
+ <br style="clear:both;">
+
+
+
+</div>
+	<br /><br />
+	</fieldset>
+	<br /><br />
+	</main>
+
+<br /><br style="clear:both;">
+</div>
+</body>
+</html>
